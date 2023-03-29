@@ -7,11 +7,10 @@ type ChildProps = {
 }
 
 function Child({obj}: ChildProps) {
-  useEffect(() => {  // 5.Child의 useEffect가 실행됨
-    console.log("Child.tsx:", obj);  // "Child.tsx: {name: "tico", age: 0}"
+  useEffect(() => {
+    console.log("Child.tsx:", obj);
   }, [])
 
-	// 4.Child는 넘겨받은 obj를 렌더링 함
   return (
     <div>
       <p>obj.name: {obj.name}</p>
