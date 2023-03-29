@@ -1,10 +1,10 @@
 import React from 'react'
-import Parent from './pages/nested-set-state/Parent'
+import Main from './issues/object-props/Main'
 
 function App() {
   return (
     <div>
-      <Parent />
+      <p>재현하고 싶은 상황의 Main 컴포넌트를 import 하여 실행해볼 것</p>
     </div>
   )
 }
